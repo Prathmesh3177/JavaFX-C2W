@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "c2w_Stack_Impl",
+            "request": "launch",
+            "mainClass": "javafiles.home.c2w_Stack_Impl",
+            "projectName": "myfirstProject_69d5d4b5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "javafiles.Main",
+            "projectName": "myfirstProject_69d5d4b5"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "main.Demo",
+            "projectName": "myfirstProject_69d5d4b5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "myfirstProject_69d5d4b5"
+        },
+        {
+            "type": "java",
+            "name": "Launch App with JavaFX",
+            "request": "launch",
+            "mainClass": "main.App",
+            "projectName": "myfirstProject_69d5d4b5",
+            "vmArgs": "--module-path \"/Users/prathmeshbondar/Downloads/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml -Dprism.verbose=true -Dprism.order=sw"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File with JavaFX",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"/Users/prathmeshbondar/Downloads/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml -Dprism.verbose=true -Dprism.order=sw"
+        }
+    ]
+}

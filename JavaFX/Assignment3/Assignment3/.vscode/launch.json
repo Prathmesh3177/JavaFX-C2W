@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Assignment3_eb7a9d66"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"/Users/prathmeshbondar/Downloads/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml -Dprism.verbose=true -Dprism.order=sw"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Assignment3_eb7a9d66",
+            "vmArgs": "--module-path \"/Users/prathmeshbondar/Downloads/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml -Dprism.verbose=true -Dprism.order=sw"
+        }
+    ]
+}
